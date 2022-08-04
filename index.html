@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS - NFT Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[black]">
+    <!--NAV BAR-->
+    <header class="flex justify-between items-center w-[100%] h-[70px] py-[20px] px-[140px] ">
+        <div class="text-4xl text-[white] font-semibold">
+            <h1>NFT</h1>
+        </div>
+        <nav>
+                <ul>
+                    <li class="inline-block py-[0] px-[30px]"><a href="#" class="text-[white] text-sm font-medium no-underline duration-700 hover:text-[purple]">Home</a></li>
+                    <li class="inline-block py-[0] px-[30px]"><a href="#" class="text-[white] text-sm font-medium no-underline duration-700 hover:text-[purple]">Products</a></li>
+                    <li class="inline-block py-[0] px-[30px]"><a href="#" class="text-[white] text-sm font-medium no-underline duration-700 hover:text-[purple]">Pricing</a></li>
+                    <li class="inline-block py-[0] px-[30px]"><a href="#" class="text-[white] text-sm font-medium no-underline duration-700 hover:text-[purple]">About</a></li>
+                    <li class="inline-block py-[0] px-[30px]"><a href="#" class="text-[white] text-sm font-medium no-underline duration-700 hover:text-[purple]">Contact</a></li>
+                </ul>
+        </nav>
+        <div>
+            <button type="button" class="py-[10px] px-[50px] bg-transparent text-[purple] font-semibold text-base duration-500 rounded-md border-solid border-[purple] border-2 hover:bg-[purple] hover:text-[white]">Login</button>
+        </div>
+    </header>
+    <!--NFT Info-->
+    <div class="block absolute text-left my-[200px] mx-[140px]">
+        <h2 class="text-[white] font-medium text-4xl leading-10">Buy, Sell & Discover<br><span class="font-semibold">Extraordinary</span> <span class="font-semibold text-[purple]">NFT</span></h2>
+        <p class="text-sm font-medium text-[gray] leading-5 mt-[20px]">Find the rarest of the art you can ever find in NFT<br>world, the sooner you place the bid the sooner<br>you get the hands on these extraordinary NFT's.</p>
+        <button class="mt-[30px] py-[15px] px-[50px] bg-[purple] rounded border-solid border-[purple] border-2 pointer text-[white] font-medium text-sm">Explore</button>
+    </div>
+    <!--NFT CARD-->
+    <div class="flex justify-center justify-items-center items-center pt-[170px] pr-[0] pb-[0] pl-[500px]">
+        <img src="img/nft.png" alt="card" class="w-170 h-96">
+    </div>
+</body>
+</html>
